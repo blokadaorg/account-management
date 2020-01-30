@@ -7,6 +7,8 @@ import icon from './ico-blokada.svg';
 import iconAdd from './ico-add.svg';
 import iconLock from './ico-3.svg';
 import iconPerson from './ico-4.svg';
+import Header from './Header.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
           </Col>
         </Row>
       </Container>
+      <Header />
+      <Footer />
     </div>
   );
 }

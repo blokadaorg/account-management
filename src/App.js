@@ -7,12 +7,13 @@ import icon from './ico-blokada.svg';
 import iconAdd from './ico-add.svg';
 import iconLock from './ico-3.svg';
 import iconPerson from './ico-4.svg';
-import Header from './Header.js';
-import Footer from './Footer.js';
+import Header from './Components/Header/Header.js';
+import Footer from './Components/Footer/Footer.js';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Container>
         <Row>
           <Col className="fixedWidth">
@@ -46,7 +47,6 @@ function App() {
           </Col>
         </Row>
       </Container>
-      <Header />
       <Footer />
     </div>
   );

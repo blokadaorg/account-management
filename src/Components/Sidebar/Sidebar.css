@@ -1,0 +1,37 @@
+.fixedWidth {
+  flex: 0 0 90px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #fe5810;
+  min-height: 368px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.col-center {
+  justify-content: center;
+  display: flex;
+  max-block-size: 80px;
+}
+
+.col-center-2 {
+  display: flex;
+  justify-content: center;
+  max-block-size: 80px;
+}
+
+.App-logo {
+  margin: 23px 0;
+  height: 48px;
+}
+
+.icon {
+  margin: 30px 0;
+}
+
+.col-center:hover {
+  background-color: #e54f0e;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}

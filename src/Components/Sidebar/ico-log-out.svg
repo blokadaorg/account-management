@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="25" viewBox="0 0 22 25">
+    <g fill="none" fill-rule="evenodd" stroke="#FFF" transform="translate(2 2)">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.311" d="M18 9.6v8.666a2.89 2.89 0 0 1-2.892 2.885l-12.216.004A2.895 2.895 0 0 1 0 18.269V9.6"/>
+        <ellipse cx="8.951" cy="15.656" fill="#FFF" fill-rule="nonzero" stroke-width=".578" rx="1.125" ry="1.156"/>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.311" d="M3.13 4.622L8.755 0l5.625 4.622M8.89 0v11.556"/>
+    </g>
+</svg>

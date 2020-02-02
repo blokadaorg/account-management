@@ -1,55 +1,57 @@
 import React from 'react';
-import './App.css';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import icon from './ico-blokada.svg';
-import iconAdd from './ico-add.svg';
-import iconLock from './ico-3.svg';
-import iconPerson from './ico-4.svg';
+import Badge from 'react-bootstrap/Badge';
+import Button from 'react-bootstrap/Button';
+
 import Header from './Components/Header/Header.js';
 import Footer from './Components/Footer/Footer.js';
+import Sidebar from './Components/Sidebar/Sidebar.js';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Container>
-        <Row>
-          <Col className="fixedWidth">
-            <Container>
-              <Row>
-                <Col className="col-center">
-                <img src={icon} className="App-logo" alt="" />
-                </Col>
-              </Row>
-            </Container>
-            <Container>
-              <Row>
-                <Col className="col-center">
-                  <img src={iconAdd} className="icon" alt="" />
-                </Col>
-              </Row>
-              <Row>
-                <Col className="col-center">
-                  <img src={iconLock} className="icon" alt="" />
-                </Col>
-              </Row>
-              <Row>
-                <Col className="col-center">
-                  <img src={iconPerson} className="icon" alt="" />
-                </Col>
-              </Row>
-            </Container>
-          </Col>
-          <Col>
-            <p>Content testowy<br/><br/><br/><br/><br/><br/></p>
-          </Col>
-        </Row>
-      </Container>
-      <Footer />
-    </div>
-  );
+import './App.css';
+
+class App extends React.Component {
+  render() {
+      return (
+        <div className="App">
+          <Header />
+          <Container>
+            <Row>
+              <Sidebar />
+              <Col>
+                <Row className="title">
+                  My devices
+                </Row>
+                <Row className="window-1">
+                  <p className="text-1">
+                    OnePlus-OnePlus7T
+                  </p>
+                </Row>
+                <Row className="window-2">
+                  <Col>
+                    <p className="text-1">
+                      Laptop ASUS 589
+                    </p>
+                  </Col>
+                  <Col className="test">
+                    <Badge className="badge-1">
+                      <p className="badge-text">New device</p>
+                    </Badge>
+                  </Col>
+                </Row>
+                <Button className="window-3" block>
+                  <p className="text-2">
+                    Add new device
+                  </p>
+                </Button>
+              </Col>
+            </Row>
+          </Container>
+          <Footer />
+        </div>
+      );
+  }
 }
 
 export default App;

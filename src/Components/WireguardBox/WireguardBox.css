@@ -1,0 +1,54 @@
+.wireguard-box {
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  background-color: #f5f7fa;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 6px;
+}
+
+.wireguard-logo {
+  height: 70px;
+  margin-top: 15px;
+}
+
+.wireguard-text-1 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.05px;
+  color: #2e3b52;
+  margin-top: 15px;
+}
+
+.wireguard-text-2 {
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #96a5c0;
+  margin-right: 7px;
+}
+
+.wireguard-text-3 {
+  font-family: Poppins;
+  font-size: 7px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #96a5c0;
+}
+
+.wireguard-tm {
+  margin-top: 6px;
+  margin-left: 30px;
+}

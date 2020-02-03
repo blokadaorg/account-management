@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Header from './Components/Header/Header.js';
 import Footer from './Components/Footer/Footer.js';
 import Sidebar from './Components/Sidebar/Sidebar.js';
+import WireGuard from './Components/WireguardBox/WireguardBox.js';
 
 import './App.css';
 
@@ -29,13 +30,13 @@ class App extends React.Component {
                   </p>
                 </Row>
                 <Row className="window-2">
-                  <Col>
+                  <Col className='remove-padding'>
                     <p className="text-1">
                       Laptop ASUS 589
                     </p>
                   </Col>
-                  <Col className="test">
-                    <Badge className="badge-1">
+                  <Col className="badge-place">
+                    <Badge className="badge-shape">
                       <p className="badge-text">New device</p>
                     </Badge>
                   </Col>
@@ -45,6 +46,9 @@ class App extends React.Component {
                     Add new device
                   </p>
                 </Button>
+                <Row className="empty-space-1">
+                </Row>
+                <WireGuard />
               </Col>
             </Row>
           </Container>

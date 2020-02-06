@@ -1,0 +1,47 @@
+:root {
+  --primary: #fff1ea;
+  --blokada-orange: #fe5810;
+  --white: #fdfdfd;
+  --border: #cbd8ef;
+  --font-color-1: #2e3b52;
+  --grey-1: #f5f7fa;
+}
+
+/* Badge Colors and Styles */
+
+.bdg--primary--solid {
+  background-color: var(--blokada-orange);
+  border: none;
+  border-radius: 4px;
+
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+  /* Button Size */
+
+  .bdg--small {
+    height: 20px;
+    width: 79px;
+  }
+  
+  .bdg--medium {
+    height: 20px;
+    width: 79px;
+  }
+  
+  .bdg--large {
+    height: 20px;
+    width: 79px;
+  }

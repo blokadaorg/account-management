@@ -2,13 +2,13 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Badge from 'react-bootstrap/Badge';
-import Button from 'react-bootstrap/Button';
 
 import Header from './Components/Header/Header.js';
 import Footer from './Components/Footer/Footer.js';
 import Sidebar from './Components/Sidebar/Sidebar.js';
 import WireGuard from './Components/WireguardBox/WireguardBox.js';
+import { Button } from './Components/Button/Button';
+import { Badge } from './Components/Badge/Badge';
 
 import './App.css';
 
@@ -24,28 +24,56 @@ class App extends React.Component {
                 <Row className="title">
                   My devices
                 </Row>
-                <Row className="window-1">
-                  <p className="text-1">
+                <Row className="btn-placement-1">
+                  <Button
+                    onClick={() => {
+                      console.log("Test test test");
+                    }}
+                    type="button"
+                    buttonStyle="btn--primary--outline"
+                    buttonSize="btn--large"
+                    >
                     OnePlus-OnePlus7T
-                  </p>
+                  </Button>
                 </Row>
-                <Row className="window-2">
-                  <Col className='remove-padding'>
-                    <p className="text-1">
-                      Laptop ASUS 589
-                    </p>
-                  </Col>
-                  <Col className="badge-place">
-                    <Badge className="badge-shape">
-                      <p className="badge-text">New device</p>
-                    </Badge>
-                  </Col>
+                <Row className="btn-placement-2">
+                  <Button
+                    onClick={() => {
+                      console.log("Test test test");
+                    }}
+                    type="button"
+                    buttonStyle="btn--primary--outline"
+                    buttonSize="btn--large"
+                    >
+                    <Row>
+                      <Col>
+                        Laptop ASUS 589
+                      </Col>
+                      <Col>
+                        <Badge
+                        type="badge"
+                        badgeStyle="bdg--primary--solid"
+                        badgeSize="bdg--small"
+                        >
+                          New device
+                        </Badge>
+                      </Col>
+                    </Row>
+
+                  </Button>
                 </Row>
-                <Button className="window-3" block>
-                  <p className="text-2">
+                <Row className="btn-placement-2">
+                  <Button
+                    onClick={() => {
+                      console.log("Test test test");
+                    }}
+                    type="button"
+                    buttonStyle="btn--primary--solid"
+                    buttonSize="btn--large"
+                    >
                     Add new device
-                  </p>
-                </Button>
+                  </Button>
+                </Row>
                 <Row className="empty-space-1">
                 </Row>
                 <WireGuard />

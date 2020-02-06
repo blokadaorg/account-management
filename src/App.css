@@ -36,81 +36,21 @@
   margin-top: 12px;
 }
 
-.text-2 {
-  font-family: Poppins;
-  font-size: 15px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
-  text-align: center;
-  color: #fe5810;
-}
-
-.window-1 {
-  width: auto;
-  height: 44px;
-  border-radius: 6px;
-  border: solid 1px #cbd8ef;
-  background-color: #ffffff;
+.btn-placement-1 {
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 27px;
 }
 
-.window-2 {
-  width: auto;
-  height: 44px;
-  border-radius: 6px;
-  border: solid 1px #cbd8ef;
-  background-color: #ffffff;
+.btn-placement-2 {
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 20px;
+
 }
 
-.window-3 {
-  max-width: 380px;
-  height: 44px;
-  border-radius: 6px;
-  border: none;
-  background-color: #fff1ea;
-  margin-left: 30px;
-  margin-top: 20px;
-}
-
-.remove-padding {
-  padding: 0;
-}
-
-.badge-shape {
-  border-radius: 4px;
-  background-color: #fe5810;
-  height: 20px;
-  width: 80px;
-  margin-bottom: 8px;
-}
-
-.badge-text {
-
-  font-family: Poppins;
-  font-size: 10px;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-}
-
-.badge-place {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0;
-  margin-right: 12px;
+.bdg-right {
+  
 }
 
 .empty-space-1 {

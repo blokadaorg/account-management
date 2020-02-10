@@ -6,7 +6,7 @@ const STYLES = [
 ];
 
 const SIZES = [
-  "btn--small",
+  "bdg--small",
 ];
 
 export const Badge = ({

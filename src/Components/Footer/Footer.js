@@ -10,7 +10,7 @@ class Footer extends React.Component {
         return (
             <div className="footer">
                 <Container>
-                    <Row className="row-text">
+                    <Row className="row-style">
                         <Col className="footer-text" xs sm md="auto">
                             <p>© Blokada.org 2016-2019</p>
                         </Col>

@@ -1,12 +1,12 @@
-.edit-device {
-    max-width: 500px;
-    margin: 100px auto 0 auto;
-    border-radius: 4px;
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15);
-    background-color: #ffffff;
-  }
+.new-device {
+  max-width: 500px;
+  margin: 100px auto 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+}
 
-  .subtitle {
+.subtitle {
   font-family: Poppins;
   font-size: 14px;
   font-weight: normal;
@@ -18,26 +18,25 @@
 
   margin-left: 30px;
   margin-top: 27px;
-  
   }
 
-  .btn-placement-3 {
+  .box-placement-1 {
     margin-left: 30px;
     margin-right: 15px;
     margin-top: 10px;
   }
 
-  .btn-placement-4 {
+  .box-placement-2 {
     padding: 0;
     margin-left: 15px;
     margin-right: 0px;
     margin-top: 34px;
   }
 
-  .field-placement-1 {
+  .line-placement-1 {
     margin-left: 30px;
     margin-right: 15px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .ico-lock {
@@ -59,28 +58,43 @@
     align-items: center;
   }
 
-
-  .textfield-box {
-    background-color: #fdfdfd;
-    border: solid 1px #cbd8ef;
-    border-radius: 6px;
-    color: #2e3b52;
-    height: 44px;
-    width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-  
+  .qr-code {
+    height: 132px;
   }
 
-  .textfield {
+  .wireguard-placement {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .wiregurad-text-1{
+    object-fit: contain;
     font-family: Poppins;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.05px;
+    color: #2e3b52
+  }
+
+  .wiregurad-text-2{
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
     letter-spacing: normal;
-    text-align: left;
-    border: none;
+    color: #96a5c0;
+    margin-top: 8px;
+  }
+
+  .btn-placement-99 {
+    position: absolute;
+    bottom: 0px;
     width: 100%;
   }

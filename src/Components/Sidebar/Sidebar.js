@@ -3,8 +3,8 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import icon from './ico-blokada.svg';
 import iconAdd from './ico-add.svg';
-import iconLock from './ico-3.svg';
-import iconPerson from './ico-4.svg';
+import iconLock from './ico-lock.svg';
+import iconPerson from './ico-user-settings.svg';
 import iconLogOut from './ico-log-out.svg'
 
 import './Sidebar.css'; 

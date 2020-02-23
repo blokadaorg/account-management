@@ -1,7 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="25" viewBox="0 0 22 25">
-    <g fill="none" fill-rule="evenodd" stroke="#FFF" transform="translate(2 2)">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.311" d="M18 9.6v8.666a2.89 2.89 0 0 1-2.892 2.885l-12.216.004A2.895 2.895 0 0 1 0 18.269V9.6"/>
-        <ellipse cx="8.951" cy="15.656" fill="#FFF" fill-rule="nonzero" stroke-width=".578" rx="1.125" ry="1.156"/>
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.311" d="M3.13 4.622L8.755 0l5.625 4.622M8.89 0v11.556"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+    <path fill="#FFF" fill-rule="nonzero" d="M19.406 0A3.598 3.598 0 0 1 23 3.594v.898a.898.898 0 1 1-1.797 0v-.898c0-.991-.806-1.797-1.797-1.797H3.594c-.991 0-1.797.806-1.797 1.797v15.812c0 .991.806 1.797 1.797 1.797h15.812c.991 0 1.797-.806 1.797-1.797v-.898a.898.898 0 1 1 1.797 0v.898A3.598 3.598 0 0 1 19.406 23H3.594A3.598 3.598 0 0 1 0 19.406V3.594A3.598 3.598 0 0 1 3.594 0h15.812zm-.53 6.24l3.335 3.354a2.698 2.698 0 0 1 .003 3.809L18.88 16.8a.895.895 0 0 1-1.27.012.898.898 0 0 1-.013-1.27l3.337-3.402.006-.006a.9.9 0 0 0-.002-1.272l-3.337-3.357a.898.898 0 1 1 1.274-1.266zm-1.267 4.362a.898.898 0 1 1 0 1.796H8.041a.898.898 0 1 1 0-1.796h9.568z"/>
 </svg>

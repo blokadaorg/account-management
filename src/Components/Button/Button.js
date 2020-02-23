@@ -4,6 +4,8 @@ import "./Button.css";
 const STYLES = [
   "btn--primary--solid",
   "btn--primary--outline",
+  "btn--primary--inactive",
+  "btn--secondary--inactive"
 ];
 
 const SIZES = [

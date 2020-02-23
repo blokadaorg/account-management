@@ -1,0 +1,19 @@
+.dropdown-style {
+  background-color: #fdfdfd;
+  border: solid 1px #cbd8ef;
+  border-radius: 6px;
+  color: #2e3b52;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  height: 44px;
+  width: 100%;
+}

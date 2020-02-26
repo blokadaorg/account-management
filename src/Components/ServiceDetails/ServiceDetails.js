@@ -7,36 +7,35 @@ import Form from '../Form/Form.js';
 import { Button } from '../Button/Button';
 
 import blokadaLogo from '../DesktopLogin/logo-blokada.svg';
+import iconAccount from '../AccountDetails/ico_acc.png';
 
-import './NewAccount.css';
+import './ServiceDetails.css';
 
-class NewAccount extends React.Component {
+class ServiceDetails extends React.Component {
   render() {
     return (
       <div>
         <Row>
           <img src={blokadaLogo} className="blokada-logo" alt="" ></img>
         </Row>
-        <Container className="new-account">
+        <Container className="service-details">
           <Col style={{padding: "0", margin:"0"}}>
             <Row>
-              <p style={{margin: "25px 30px 20px 30px"}} className="login-title">New account</p>
+              <p style={{margin: "25px 30px 20px 30px"}} className="login-title">Service details</p>
             </Row>
             <Row className="progress-bar">
               <span style={{width: "25%"}}></span>
             </Row>
             <Row>
-              <p style={{margin: "20px 30px 25px 30px"}} className="subtitle-1">Save the account ID in a safe place, you will need it to activate your device.</p>
+              <p style={{margin: "20px 30px 25px 30px"}} className="subtitle-1">Select the currency.</p>
+            </Row>
+            <Row style={{display: "flex", justifyContent: "flex-end", marginRight: "15px"}}>
+              <p style={{marginBottom: "0px"}} className="subtitle-2">Total</p>
+            </Row>
+            <Row style={{display: "flex", justifyContent: "flex-end", marginRight: "15px"}}>
+              <p className="subtitle-3">$ 27.00</p>
             </Row>
             <Row>
-              <p style={{margin: "5px 30px 0 30px"}} className="subtitle-2">Account ID</p>
-            </Row>
-            <Row>
-            <Col style={{margin: "10px 15px 10px 15px"}}>
-              <Form />
-            </Col>
-          </Row>
-          <Row>
             <Col style={{margin: "20px 30px 30px 30px", padding: "0"}}>
               <Button
                 onClick={() => {
@@ -46,7 +45,7 @@ class NewAccount extends React.Component {
                 buttonStyle="btn--primary--solid"
                 buttonSize="btn--large"
                 >
-                Continue
+                Go to payment method
               </Button>
             </Col>
           </Row>
@@ -57,4 +56,4 @@ class NewAccount extends React.Component {
   }
 }
 
-export default NewAccount;
+export default ServiceDetails;

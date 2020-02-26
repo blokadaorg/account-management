@@ -28,12 +28,12 @@ class DesktopLogin extends React.Component {
             </Row>
           </Row>
           <Row>
-            <Col style={{margin: "10px 10px 10px 10px"}}>
+            <Col style={{margin: "10px 15px 10px 15px"}}>
               <Form />
             </Col>
           </Row>
           <Row>
-            <Col xs={4}  style={{margin: "20px 5px 30px 25px", padding: "0"}}>
+            <Col xs={4}  style={{margin: "20px 5px 30px 30px", padding: "0"}}>
               <Button
                 onClick={() => {
                 console.log("Test test test");
@@ -45,7 +45,7 @@ class DesktopLogin extends React.Component {
                 New account
               </Button>
             </Col>
-            <Col style={{margin: "20px 25px 30px 10px", padding: "0"}}>
+            <Col style={{margin: "20px 30px 30px 10px", padding: "0"}}>
               <Button
                 onClick={() => {
                 console.log("Test test test");

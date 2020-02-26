@@ -10,6 +10,8 @@ import NewDevice from './Components/NewDevice/NewDevice.js';
 import AccountDetails from './Components/AccountDetails/AccountDetails.js';
 import DesktopLogin from './Components/DesktopLogin/DesktopLogin.js';
 import NewAccount from './Components/NewAccount/NewAccount.js';
+import VerifyAccount from './Components/VerifyAccount/VerifyAccount.js';
+import ServiceDetails from './Components/ServiceDetails/ServiceDetails.js';
 
 import './App.css';
 
@@ -26,6 +28,8 @@ class App extends React.Component {
               <Route path="/accountdetails" exact component={AccountDetails} />
               <Route path="/login" exact component={DesktopLogin} />
               <Route path="/newaccount" exact component={NewAccount} />
+              <Route path="/verify" exact component={VerifyAccount} />
+              <Route path="/service" exact component={ServiceDetails} />
               <Footer />
             </div>
           </div>

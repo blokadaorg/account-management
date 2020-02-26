@@ -1,4 +1,4 @@
-.new-account {
+.verify-account {
   width: 460px;
   margin: 30px auto 0 auto;
   border-radius: 4px;
@@ -47,6 +47,12 @@
   margin: 25px auto 0 auto;
 }
 
+.ico-acc {
+  height: 70px;
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
 .progress-bar {
   width: 100%;
   max-width: 400px;
@@ -62,6 +68,6 @@
   height: 100%;
   overflow: hidden;
   background-color: #fe5810;
-  border-bottom-right-radius: 2px;
-  border-top-right-radius: 2px;
+  border-radius: 2px;
+  margin-left: 25%;
 }

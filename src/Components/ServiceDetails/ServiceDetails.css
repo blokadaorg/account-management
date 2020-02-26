@@ -1,4 +1,4 @@
-.new-account {
+.service-details {
   width: 460px;
   margin: 30px auto 0 auto;
   border-radius: 4px;
@@ -31,13 +31,25 @@
 
 .subtitle-2 {
   font-family: Poppins;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.29;
+  line-height: 1.5;
   letter-spacing: normal;
   color: #96a5c0;
+}
+
+.subtitle-3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #2e3b52;
 }
 
 .blokada-logo {
@@ -45,6 +57,12 @@
   height: 102px;
   width: 169px;
   margin: 25px auto 0 auto;
+}
+
+.ico-acc {
+  height: 70px;
+  margin-left: 30px;
+  margin-top: 7px;
 }
 
 .progress-bar {
@@ -62,6 +80,6 @@
   height: 100%;
   overflow: hidden;
   background-color: #fe5810;
-  border-bottom-right-radius: 2px;
-  border-top-right-radius: 2px;
+  border-radius: 2px;
+  margin-left: 50%;
 }

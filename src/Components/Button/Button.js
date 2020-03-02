@@ -5,7 +5,9 @@ const STYLES = [
   "btn--primary--solid",
   "btn--primary--outline",
   "btn--primary--inactive",
+  "btn--primary--unselected",
   "btn--secondary--inactive"
+  
 ];
 
 const SIZES = [

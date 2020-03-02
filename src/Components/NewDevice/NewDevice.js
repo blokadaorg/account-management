@@ -82,7 +82,7 @@ class NewDevice extends React.Component {
                                 </Button> 
                             </Col>
                         </Row>
-                        <Row className="line-placement-1">
+                        <Row style={{margin: "30px 15px 0 30px"}}>
                           <Col style={{
                             height: "1px", 
                             backgroundColor:"#ccd5ea"

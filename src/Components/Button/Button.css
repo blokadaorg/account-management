@@ -68,6 +68,27 @@
   cursor: context-menu;
 }
 
+.btn--primary--unselected {
+  background-color: var(--grey-1);
+  color: var(--font-color-1);
+  border: none;
+  border-radius: 6px;
+
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  letter-spacing: 0.04px;
+  text-align: center;
+}
+
+.btn--primary--unselected:hover {
+  background-color: var(--blokada-orange);
+  color: white;
+}
+
 .btn--secondary--inactive {
   background-color: var(--white);
   border: solid 1px var(--border);
@@ -86,7 +107,8 @@
 /* Button Size */
 
 .btn--small {
-  height: 44px;
+  height: 36px;
+  width: 100%;
 }
 
 .btn--medium {

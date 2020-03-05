@@ -25,7 +25,7 @@ class AccountDetails extends React.Component {
             </Row>
             <Row className="row-placement">
               <Col xs={3}>
-                <img src={iconAccount} className="ico-acc" alt="" ></img>
+                <img src={iconAccount} className="ico-acc2" alt="" ></img>
               </Col>
               <Col style={{padding: "0px"}}>
                 <Row className="test">
